@@ -7,17 +7,27 @@
       {{ props.pos }}
     </span>
     <div class="spacer"></div>
-    <button class="play-button" @click="playAudio">
-      <PlayCircleOutline color="#d87676"/>
-    </button>
-    <audio class="audio" :src="props.audio" controls="false" ref="audioEl"></audio>
+    <div class="ctrl">
+      <span class="accent-label">US</span>
+      <button class="play-button us" @click="playAudio('us')">
+        <PlayCircleOutline color="#d87676"/>
+      </button>
+      <div class="divider"></div>
+      <span class="accent-label">UK</span>
+      <button class="play-button uk" @click="playAudio('uk')">
+        <PlayCircleOutline color="#d87676"/>
+      </button>
+    </div>
+    <audio class="audio" :src="audioPathUS" controls="false" ref="audioElUS"></audio>
+    <audio class="audio" :src="audioPathUK" controls="false" ref="audioElUK"></audio>
   </div>
 </template>
 
 
 <script setup lang="ts">
-import { defineProps, ref } from "vue";
+import { computed, defineProps, ref } from "vue";
 import { PlayCircleOutline } from "./icons";
+import { getAudioPath } from "../data";
 const props = defineProps({
   word: {
     type: String,
@@ -25,16 +35,21 @@ const props = defineProps({
   },
   audio: {
     type: String,
-    required: true,
   },
   pos: {
     type: String,
   },
 });
-const audioEl = ref(null);
-function playAudio() {
-  const audio = audioEl.value
-  audio.play();
+const audioElUS = ref<any>(null);
+const audioElUK = ref<any>(null);
+const audioPathUS = computed(() => getAudioPath(props.word, "us"));
+const audioPathUK = computed(() => getAudioPath(props.word, "uk"));
+function playAudio(ver) {
+  if (ver === "us") {
+    audioElUS.value.play();
+  } else {
+    audioElUK.value.play();
+  }
 }
 </script>
 
@@ -46,9 +61,23 @@ function playAudio() {
   gap: 0.5rem;
   border-top: 1px solid #d87676;
   padding: 8px 0;
-  &:last-child {
-    border-bottom: 1px solid #d87676;
-  }
+}
+.speak-word:last-child {
+  border-bottom: 1px solid #d87676;
+}
+.ctrl {
+  display: flex;
+  align-items: center;
+}
+.ctrl .divider {
+  width: 1px;
+  height: 24px;
+  background-color: rgba(0, 0, 0, 0.1);
+  margin: 0 16px;
+}
+.accent-label {
+  margin-right: 4px;
+  opacity: 0.7;
 }
 .word {
   font-size: 18px;
