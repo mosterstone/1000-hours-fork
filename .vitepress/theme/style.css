@@ -73,6 +73,10 @@
   --vp-font-family-mono: 'Courier New', sans-serif;
 }
 
+body {
+  font-size: 18px;
+}
+
 /**
  * Component: Button
  * -------------------------------------------------------------------------- */

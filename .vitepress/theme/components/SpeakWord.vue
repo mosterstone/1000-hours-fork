@@ -3,9 +3,9 @@
     <div class="word" >
       {{ props.word }}
     </div>
-    <span class="pos">
+    <div v-if="pos" class="pos">
       {{ props.pos }}
-    </span>
+    </div>
     <div class="spacer"></div>
     <div class="ctrl">
       <span class="accent-label">US</span>
@@ -25,7 +25,7 @@
 
 
 <script setup lang="ts">
-import { computed, defineProps, ref } from "vue";
+import { computed, ref } from "vue";
 import { PlayCircleOutline } from "./icons";
 import { getAudioPath } from "../data";
 const props = defineProps({
@@ -33,7 +33,10 @@ const props = defineProps({
     type: String,
     required: true,
   },
-  audio: {
+  audioUs: {
+    type: String,
+  },
+  audioUk: {
     type: String,
   },
   pos: {
@@ -42,8 +45,20 @@ const props = defineProps({
 });
 const audioElUS = ref<any>(null);
 const audioElUK = ref<any>(null);
-const audioPathUS = computed(() => getAudioPath(props.word, "us"));
-const audioPathUK = computed(() => getAudioPath(props.word, "uk"));
+
+const audioPathUS = computed(() => {
+  if (props.audioUs) {
+    return props.audioUs;
+  }
+  return getAudioPath(props.word, "us")
+});
+const audioPathUK = computed(() => {
+  if (props.audioUk) {
+    return props.audioUk;
+  }
+  return getAudioPath(props.word, "uk")
+});
+
 function playAudio(ver) {
   if (ver === "us") {
     audioElUS.value.play();

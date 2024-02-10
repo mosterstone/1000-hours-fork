@@ -9,3 +9,4 @@ This is a .md using a custom component
 
 <SpeakWord word="treasure" pos="noun" />
 <SpeakWord word="cheese" pos="noun" />
+<SpeakWord word="bar" pos="noun" audio-us="/vendor/audios/4-nova-bar-00.mp3" audio-uk="/vendor/audios/4-nova-bar-01.mp3" />
