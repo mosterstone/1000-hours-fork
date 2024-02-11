@@ -27,7 +27,7 @@ The word *serendipity* should followed by a speaker icon, allowing readers to cl
 VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
 
 **Input**
-
+·
 ````md
 ```js{4}
 export default {
