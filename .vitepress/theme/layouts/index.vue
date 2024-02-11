@@ -1,9 +1,19 @@
 <script setup>
-import { onMounted } from "vue";
-
+import { onMounted, watch } from "vue";
+import { useRouter } from 'vitepress';
 import DefaultTheme from 'vitepress/theme'
 
 const { Layout } = DefaultTheme
+
+const router = useRouter();
+
+watch(() => router.route.data.relativePath, (newVal, oldVal) => {
+  if (newVal !== oldVal) {
+    setTimeout(() => {
+      buildSpeakWordInline();
+    }, 200);
+  }
+}, { immediate: true });
 
 function buildPlayButton(parent, accent, url) {
   const labelEl = document.createElement('span');
@@ -39,7 +49,7 @@ function convertToInlineComponent(el) {
   const dataPos = el.getAttribute('data-pos')
   const dataAudioUs = el.getAttribute('data-audio-us')
   const dataAudioUk = el.getAttribute('data-audio-uk')
-  console.log(word, dataPos, dataAudioUs, dataAudioUk)
+  console.log('inline component', dataAudioUs, dataAudioUk)
 
   const wrapperEl = document.createElement('div')
   wrapperEl.classList.add('speak-word-wrapper')
@@ -70,12 +80,16 @@ function convertToInlineComponent(el) {
   el.style.display = 'none'
 }
 
+function buildSpeakWordInline() {
+  const inlinePlayerEls = document.querySelectorAll('.speak-word-inline')
+  for (let i = 0; i < inlinePlayerEls.length; i += 1) {
+    convertToInlineComponent(inlinePlayerEls[i]);
+  }
+}
+
 onMounted(() => {
   setTimeout(() => {
-    const inlinePlayerEls = document.querySelectorAll('.speak-word-inline')
-    for (let i = 0; i < inlinePlayerEls.length; i += 1) {
-      convertToInlineComponent(inlinePlayerEls[i]);
-    }
+    buildSpeakWordInline();
   }, 200)
 })
 </script>
