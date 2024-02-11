@@ -15,7 +15,11 @@ function buildPlayButton(parent, accent, url) {
   audioEl.setAttribute('controls', 'false')
   const iconEl = document.createElement('img');
   iconEl.classList.add('icon');
-  iconEl.setAttribute('src', '/public/images/sound.svg')
+  let svg = '/public/images/speaker-blue.svg';
+  if (accent === 'uk') {
+    svg = '/public/images/speaker-brown.svg';
+  }
+  iconEl.setAttribute('src', svg)
   iconEl.innerText = accent.toUpperCase();
 
   const btnEl = document.createElement('button')
@@ -24,7 +28,7 @@ function buildPlayButton(parent, accent, url) {
   btnEl.addEventListener('click', () => {
     audioEl.play();
   })
-  btnEl.append(labelEl)
+  // btnEl.append(labelEl)
   btnEl.append(iconEl)
   btnEl.append(audioEl)
   parent.append(btnEl)
@@ -43,16 +47,6 @@ function convertToInlineComponent(el) {
   canEl.classList.add('speak-word')
   canEl.classList.add('inline')
 
-  const wordEl = document.createElement('div')
-  wordEl.classList.add('word')
-  wordEl.innerText = word;
-  canEl.append(wordEl);
-  if (dataPos) {
-    const posEl = document.createElement('div')
-    posEl.classList.add('pos')
-    posEl.innerText = dataPos
-    canEl.append(posEl)
-  }
   if (dataAudioUk || dataAudioUs) {
     const ctrlEl = document.createElement('div')
     ctrlEl.classList.add('ctrl')
@@ -97,36 +91,26 @@ onMounted(() => {
 @import url(../components/SpeakWord.scss);
 .speak-word-wrapper {
   display: inline-block;
-  margin: 0 4px;
+  margin: 0px;
+  vertical-align: middle;
 }
 .speak-word.inline {
-  // border: 1px solid #d87676;
   border: none;
   display: flex;
-  padding: 0 4px;
-  border-bottom: 1px solid #d87676;
-  padding: 0 0 4px 0;
+  padding: 0;
   .word {
     display: inline-block;
   }
-  .pos {
-    transform: translateY(-10px);
-    font-size: 12px;
-  }
   .ctrl-part {
-    background: #d87676;
-    color: white;
-    border-radius: 4px;
-    margin-right: 4px;
     .play-button {
       display: flex;
-      width: 48px;
+      width: 24px;
       height: 24px;
       align-items: center;
-      padding: 0 4px;
+      justify-content: center;
       .icon {
-        width: 20px;
-        height: 20px;
+        width: 16px;
+        height: 16px;
       }
     }
     .accent-label {

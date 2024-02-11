@@ -19,4 +19,4 @@ block component
 
 ### inline
 
-The quick brown fox jumps over the lazy <span class="speak-word-inline" data-pos="noun" data-audio-us="/vendor/audios/11-nova-dog-00.mp3" data-audio-uk="/vendor/audios/11-nova-dog-01.mp3">dog</span> the quick brown fox jumps over the lazy dog 
+The quick brown fox jumps over the lazy *dog* <span class="speak-word-inline" data-audio-us="/vendor/audios/11-nova-dog-00.mp3" data-audio-uk="/vendor/audios/11-nova-dog-01.mp3"></span> the quick brown fox jumps over the lazy dog `/dôɡ/`<span class="speak-word-inline" data-audio-uk="/vendor/audios/11-nova-dog-01.mp3"></span>.

@@ -12,7 +12,7 @@
         <div v-if="ix !== 0" class="divider"></div>
         <button class="play-button" :class="item.label" @click="playAudio(item.label)">
           <span class="accent-label">{{ item.label }}</span>
-          <img src="/public/images/sound.svg" class="icon" alt="sound" />
+          <img :src="svgUrl(item.label)" class="icon" alt="sound" />
         </button>
         <audio class="audio" :class="item.label" :src="item.audio" controls="false" ></audio>
       </div>
@@ -39,6 +39,13 @@ const props = defineProps({
     type: String,
   },
 });
+
+const svgUrl = (accent) => {
+  if (accent === 'uk') {
+    return '/public/images/speaker-brown.svg';
+  }
+  return '/public/images/speaker-blue.svg';
+}
 
 const audioPathUS = computed(() => {
   if (props.audioUs) {
