@@ -109,7 +109,10 @@ export default withMermaid(
             { text: '9. 注意不到就不存在', link: '/in-the-brain/09-unnoticed' },
             { text: '10. 熟练就是卸载负担', link: '/in-the-brain/10-unloading' },
             { text: '11. 被关注是最大负担', link: '/in-the-brain/11-burden' },
-            { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' },          ]
+            { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' }, 
+            { text: '13. 一切都是化学反应', link: '/in-the-brain/13-chemical' },
+            { text: '14. 安全阈值决定成果', link: '/in-the-brain/14-threshold' },
+          ]
         },
       ],
 
