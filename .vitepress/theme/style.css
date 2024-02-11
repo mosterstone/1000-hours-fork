@@ -74,7 +74,7 @@
 }
 
 body {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /**
@@ -144,6 +144,19 @@ body {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-.custom-block, blockquote{
+
+.vp-doc blockquote > p{
   font-size: 18px;
+}
+
+.vp-doc .custom-block {
+  font-size: 18px;
+}
+
+strong, b {
+  color: rgb(63 86 99);
+}
+
+em, i {
+  color: rgb(91, 4, 17);
 }
