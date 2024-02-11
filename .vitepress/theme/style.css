@@ -144,3 +144,6 @@ body {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+.custom-block, blockquote{
+  font-size: 18px;
+}
