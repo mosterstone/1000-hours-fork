@@ -18,7 +18,7 @@ export default withMermaid(
   
       sidebar: [
         {
-          text: '1. 语音基础',
+          text: '1. 基础', collapsed: true, link: '/sounds-of-english/01-basics',
           collapsed: false,
           items: [
             { text: '1.1. 音素', collapsed: true, link: '/sounds-of-english/01-phonemes',
@@ -33,7 +33,7 @@ export default withMermaid(
           ]
         },
         {
-          text: '2. 语音详解',
+          text: '2. 详解', collapsed: true, link: '/sounds-of-english/03-details',
           collapsed: false,
           items: [
             { text: '2.1. 元音', collapsed: false, link: '/sounds-of-english/03-vowels-overview',
@@ -68,6 +68,26 @@ export default withMermaid(
             { text: '2.3. 连读', link: '/sounds-of-english/26-catenation' },            
             { text: '2.4. 音标学习', link: '/sounds-of-english/27-learning-phonetics' },            
             { text: '2.4. 英美口音选择', link: '/sounds-of-english/28-choosing-accent' },            
+          ]
+        },
+        {
+          text: '3. 进阶', collapsed: true, link: '/sounds-of-english/29-advanced',
+          collapsed: false,
+          items: [
+            { text: '3.1 什么更重要？', link: '/sounds-of-english/30-more-important' },
+            { text: '3.2 停顿', link: '/sounds-of-english/31-pause' },
+            { text: '3.3 高低', link: '/sounds-of-english/32-high-low' },
+            { text: '3.4 起伏', link: '/sounds-of-english/33-up-down' },
+            { text: '3.5 轻重', link: '/sounds-of-english/34-strong-weak' },
+            { text: '3.6 缓急', link: '/sounds-of-english/35-fast-slow' },
+          ]
+        },
+        {
+          text: '4. 收官', collapsed: true, link: '/sounds-of-english/36-round-up',
+          collapsed: false,
+          items: [
+            { text: '4.1 流利', link: '/sounds-of-english/37-fluent' },
+            { text: '4.2 情绪', link: '/sounds-of-english/38-emotional' },
           ]
         }
       ],
