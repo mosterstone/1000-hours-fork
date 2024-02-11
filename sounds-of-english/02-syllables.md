@@ -12,19 +12,19 @@
 
 英文的音节构成大抵上有以下几种形式（其中，`c` 代表辅音，`v` 代表元音）：
 
-| Syllable Structure | examples             |
-| ------------------ | -------------------- |
-| `v`                | *a*,      `/ə/`      |
-| `vc`               | *add*,    `/æd/`     |
-| `cv`               | *the*,    `/ðə/`     |
-| `cvc`              | *dog*,    `/dɔg/`    |
-| `ccv`              | *flee*,   `/fliː/`   |
-| `vcc`              | *east*,   `/iːst/`   |
-| `cvcc`             | *task*,   `/tæsk/`   |
-| `ccvc`             | *speed*,  `/spiːd/`  |
-| `ccvcc`            | *thrust*, `/θrʌst/`  |
-| `cvccc`            | *text*,   `/tekst/`  |
-| `ccvccc`           | *flexed*, `/flekst/` |
+| Syllable Structure | examples            |
+| ------------------ | --------------------|
+| `v`                | *a* `/ə/`     |
+| `vc`               | *add* `/æd/`    |
+| `cv`               | *the* `/ðə/`    |
+| `cvc`              | *dog* `/dɔg/`   |
+| `ccv`              | *flee* `/fliː/`  |
+| `vcc`              | *east* `/iːst/`  |
+| `cvcc`             | *task* `/tæsk/`  |
+| `ccvc`             | *speed* `/spiːd/` |
+| `ccvcc`            | *thrust* `/θrʌst/` |
+| `cvccc`            | *text* `/tekst/` |
+| `ccvccc`           | *flexed* `/flekst/`|
 
 如果一个单词由多个音节构成的话，那么为了能够读得顺畅、清晰且易于识别，那么其中可能会有某个音节是**重音**；如果音节数量更多，可能还会有某个或某些音节是**次重音**。一般来说，**一个词汇只有一个重音**，**但有可能存在多个次重音**。比如 *serendipity* `/ˌserənˈdɪpɪti/`。之前的那个 *19* 个音节构成的词汇，其中有 *7* 个**次重音**，*1* 个**重音**。
 
