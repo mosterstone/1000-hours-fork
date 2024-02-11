@@ -42,9 +42,9 @@ const props = defineProps({
 
 const svgUrl = (accent) => {
   if (accent === 'uk') {
-    return '/public/images/speaker-brown.svg';
+    return '/images/speaker-brown.svg';
   }
-  return '/public/images/speaker-blue.svg';
+  return '/images/speaker-blue.svg';
 }
 
 const audioPathUS = computed(() => {

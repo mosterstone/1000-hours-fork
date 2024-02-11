@@ -15,9 +15,9 @@ function buildPlayButton(parent, accent, url) {
   audioEl.setAttribute('controls', 'false')
   const iconEl = document.createElement('img');
   iconEl.classList.add('icon');
-  let svg = '/public/images/speaker-blue.svg';
+  let svg = '/images/speaker-blue.svg';
   if (accent === 'uk') {
-    svg = '/public/images/speaker-brown.svg';
+    svg = '/images/speaker-brown.svg';
   }
   iconEl.setAttribute('src', svg)
   iconEl.innerText = accent.toUpperCase();
