@@ -4,27 +4,22 @@
 
 **英文的词汇由至少一个音节构成**。英文中出现频率最高的几个词，*a/an*, *the*, *of*, *to*, *for*... 等等都是单音节词汇。有的词汇可能很长，由很多音节构成。在英文词典中能找到的最长词汇总计由 19 个音节，45 个字母构成：
 
-> *[Pneumonoultramicroscopicsilicovolcanoconiosis](https://en.wikipedia.org/wiki/Pneumonoultramicroscopicsilicovolcanoconiosis)*
+> *[Pneumonoultramicroscopicsilicovolcanoconiosis](https://en.wikipedia.org/wiki/Pneumonoultramicroscopicsilicovolcanoconiosis)* <span class="speak-word-inline" data-audio-us="/audios/En-us-pneumonoultramicroscopicsilicovolcanoconiosis.ogg.mp3"></span>
 >
 > `/ˌnumənəʊˌəltrəˌmaɪkrəˌskɑpɪkˌsɪləkəʊvɑlˌkeɪnəʊˌkəʊniˈəʊsəs/`
->
-> <audio controls><source src="../audios/En-us-pneumonoultramicroscopicsilicovolcanoconiosis.ogg.mp3">Your browser does not support the audio element.</source></audio>
 
 英文的音节构成大抵上有以下几种形式（其中，`c` 代表辅音，`v` 代表元音）：
 
-| Syllable Structure | examples            |
-| ------------------ | --------------------|
-| `v`                | *a* `/ə/`     |
-| `vc`               | *add* `/æd/`    |
-| `cv`               | *the* `/ðə/`    |
-| `cvc`              | *dog* `/dɔg/`   |
-| `ccv`              | *flee* `/fliː/`  |
-| `vcc`              | *east* `/iːst/`  |
-| `cvcc`             | *task* `/tæsk/`  |
-| `ccvc`             | *speed* `/spiːd/` |
-| `ccvcc`            | *thrust* `/θrʌst/` |
-| `cvccc`            | *text* `/tekst/` |
-| `ccvccc`           | *flexed* `/flekst/`|
+ * `v`： *awe* `/ɔː/` <span class="speak-word-inline" data-audio-us="/audios/awe-us.mp3"></span>
+ * `vc`： *add* `/æd/` <span class="speak-word-inline" data-audio-us="/audios/add-us.mp3"></span>
+ * `cv`： *the* `/ðə/` <span class="speak-word-inline" data-audio-us="/audios/the-us.mp3"></span>
+ * `cvc`： *dog* `/dɔg/` <span class="speak-word-inline" data-audio-us="/audios/dog-us.mp3"></span>
+ * `ccv`： *flee* `/fliː/` <span class="speak-word-inline" data-audio-us="/audios/flee-us.mp3"></span>
+ * `vcc`： *east* `/iːst/` <span class="speak-word-inline" data-audio-us="/audios/east-us.mp3"></span>
+ * `cvcc`： *task* `/tæsk/` <span class="speak-word-inline" data-audio-us="/audios/task-us.mp3"></span>
+ * `ccvc`： *speed* `/spiːd/` <span class="speak-word-inline" data-audio-us="/audios/speed-us.mp3"></span>
+ * `ccvcc`： *thrust* `/θrʌst/` <span class="speak-word-inline" data-audio-us="/audios/thrust-us.mp3"></span>
+ * `cvccc`： *text* `/tekst/` <span class="speak-word-inline" data-audio-us="/audios/text-us.mp3"></span>
+ * `ccvccc`： *flexed* `/flekst/` <span class="speak-word-inline" data-audio-us="/audios/flexed-us.mp3"></span>
 
 如果一个单词由多个音节构成的话，那么为了能够读得顺畅、清晰且易于识别，那么其中可能会有某个音节是**重音**；如果音节数量更多，可能还会有某个或某些音节是**次重音**。一般来说，**一个词汇只有一个重音**，**但有可能存在多个次重音**。比如 *serendipity* `/ˌserənˈdɪpɪti/`。之前的那个 *19* 个音节构成的词汇，其中有 *7* 个**次重音**，*1* 个**重音**。
-
