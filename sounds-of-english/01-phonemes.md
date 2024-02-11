@@ -1,5 +1,5 @@
 ---
-outline: deep
+outline: [1,2,3]
 ---
 
 # 1.1. 音素
