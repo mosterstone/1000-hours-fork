@@ -32,7 +32,13 @@ export default withMermaid(
             { text: '2.1. 元音', collapsed: false, link: '/sounds-of-english/03-vowels-overview',
               items: [
                 { text: '2.1.1. 口腔内气流共鸣位置', link: '/sounds-of-english/04-vowel-positions' },
-                { text: '2.1.2. ʌ/ɑː', link: '/sounds-of-english/05-Ʌ' }
+                { text: '2.1.2. ʌ/ɑː', link: '/sounds-of-english/05-Ʌ' },
+                { text: '2.1.3. e/æ', link: '/sounds-of-english/06-e' },
+                { text: '2.1.4. ə/əː', link: '/sounds-of-english/07-ə' },
+                { text: '2.1.5. ɪ/iː', link: '/sounds-of-english/08-i' },
+                { text: '2.1.6. ʊ/uː', link: '/sounds-of-english/09-u' },
+                { text: '2.1.7. ɔ/ɔː', link: '/sounds-of-english/10-ɔ' },
+                { text: '2.1.8. aɪ, eɪ, ɔɪ, aʊ, əʊ, eə, ɪə, ʊə', link: '/sounds-of-english/11-aɪ' },
               ]
             },
             

@@ -41,9 +41,8 @@ outline: [1,2,3]
 
 ::: info
 
-* 除了 `ɪ`、`iː` 之外， 还有一个介乎二者长度之间的 `i`，比如 *happy* `/ˈhæpi/`。
-* 除了 `ʊ`、`uː` 之外， 还有一个介乎二者长度之间的 `u`，比如 *actually* `/ˈæˌktʃuəli/`。
-* 有些外来语可能有鼻化的元音，会在元音之上标注一个波浪号 `˜ `，比如来自法语的 [*penchant*](https://www.oxfordlearnersdictionaries.com/definition/english/penchant) `/ˈpɒ̃ʃɒ̃/`。
+* 除了 `ɪ`、`iː` 之外， 还有一个介乎二者长度之间的 `i`，比如 *happy* `/ˈhæpi/`<span class="speak-word-inline" data-audio-uk="/audios/happy-uk.mp3"></span><span class="speak-word-inline" data-audio-us="/audios/happy-us.mp3"></span>。
+* 有些外来语可能有鼻化的元音，会在元音之上标注一个波浪号 `˜ `，比如来自法语的 [*penchant*](https://www.oxfordlearnersdictionaries.com/definition/english/penchant) `/ˈpɒ̃ʃɒ̃, pɒ̃ŋʃɒ̃ŋ/`<span class="speak-word-inline" data-audio-uk="/audios/penchant-uk.mp3"></span>  ，而大多数美国人会把这个词读作 `ˈ/pɛnʧənt/`<span class="speak-word-inline" data-audio-us="/audios/penchant-us.mp3"></span>。
 
 :::
 
