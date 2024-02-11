@@ -1,6 +1,10 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from 'vitepress-plugin-mermaid'
 import footnote from 'markdown-it-footnote'
+import sup from 'markdown-it-sup'
+import sub from 'markdown-it-sub'
+import mark from 'markdown-it-mark'
+import ins from 'markdown-it-ins'
 
 // import markdownit from 'markdown-it'
 
@@ -15,14 +19,13 @@ export default withMermaid(
         { text: 'Home', link: '/' },
         { text: 'Examples', link: '/markdown-examples' }
       ],
-  
+
       sidebar: [
         {
           text: '语音塑造', collapsed: true,
-          items: [            
+          items: [
             {
               text: '1. 基础', collapsed: true, link: '/sounds-of-english/01-basics',
-              collapsed: false,
               items: [
                 { text: '1.1. 音素', collapsed: true, link: '/sounds-of-english/01-phonemes',
                   items: [
@@ -37,7 +40,6 @@ export default withMermaid(
             },
             {
               text: '2. 详解', collapsed: true, link: '/sounds-of-english/03-details',
-              collapsed: false,
               items: [
                 { text: '2.1. 元音', collapsed: false, link: '/sounds-of-english/03-vowels-overview',
                   items: [
@@ -67,15 +69,14 @@ export default withMermaid(
                     { text: '2.2.12. ʒ', link: '/sounds-of-english/24-ʒ' },
                     { text: '2.2.13. j, w', link: '/sounds-of-english/25-jw' },
                   ]
-                },            
-                { text: '2.3. 连读', link: '/sounds-of-english/26-catenation' },            
-                { text: '2.4. 音标学习', link: '/sounds-of-english/27-learning-phonetics' },            
-                { text: '2.4. 英美口音选择', link: '/sounds-of-english/28-choosing-accent' },            
+                },
+                { text: '2.3. 连读', link: '/sounds-of-english/26-catenation' },
+                { text: '2.4. 音标学习', link: '/sounds-of-english/27-learning-phonetics' },
+                { text: '2.4. 英美口音选择', link: '/sounds-of-english/28-choosing-accent' },
               ]
             },
             {
               text: '3. 进阶', collapsed: true, link: '/sounds-of-english/29-advanced',
-              collapsed: false,
               items: [
                 { text: '3.1 什么更重要？', link: '/sounds-of-english/30-more-important' },
                 { text: '3.2 停顿', link: '/sounds-of-english/31-pause' },
@@ -87,7 +88,6 @@ export default withMermaid(
             },
             {
               text: '4. 收官', collapsed: true, link: '/sounds-of-english/36-round-up',
-              collapsed: false,
               items: [
                 { text: '4.1 流利', link: '/sounds-of-english/37-fluent' },
                 { text: '4.2 情绪', link: '/sounds-of-english/38-emotional' },
@@ -97,7 +97,7 @@ export default withMermaid(
         },
         {
           text: '大脑内部', collapsed: true,
-          items: [            
+          items: [
             { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
             { text: '2. 一切都是连接', link: '/in-the-brain/02-links' },
             { text: '3. 一切都是体育课', link: '/in-the-brain/03-sports' },
@@ -110,9 +110,9 @@ export default withMermaid(
             { text: '10. 熟练就是卸载负担', link: '/in-the-brain/10-unloading' },
             { text: '11. 被关注是最大负担', link: '/in-the-brain/11-burden' },
             { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' },          ]
-        },        
+        },
       ],
-  
+
       socialLinks: [
         { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
       ]
@@ -124,6 +124,10 @@ export default withMermaid(
       config: (md) => {
         // use more markdown-it plugins!
         md.use(footnote)
+        md.use(sub)
+        md.use(sup)
+        md.use(mark)
+        md.use(ins)
       },
       // toc: {
       //   level: [2, 3, 4]

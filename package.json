@@ -1,7 +1,11 @@
 {
   "devDependencies": {
     "markdown-it-footnote": "^4.0.0",
+    "markdown-it-ins": "^4.0.0",
+    "markdown-it-mark": "^4.0.0",
     "markdown-it-mathjax3": "^4.3.2",
+    "markdown-it-sub": "^2.0.0",
+    "markdown-it-sup": "^2.0.0",
     "sass": "^1.70.0",
     "vitepress": "^1.0.0-rc.42",
     "vitepress-plugin-mermaid": "^2.0.16",
