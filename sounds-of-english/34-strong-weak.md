@@ -2,7 +2,7 @@
 
 自然语音中，不可能每个词汇都被用同样轻重的方式读出来 —— 总是有些词被**强调**，而另外一些词读的相对较轻。
 
-不妨体会以下**同一个句子**的 4 个版本（例子来自于 [Macquarie University](https://www.mq.edu.au/about/about-the-university/our-faculties/medicine-and-health-sciences/departments-and-centres/department-of-linguistics/our-research/phonetics-and-phonology/speech/phonetics-and-phonology/Intonation-tobi-introduction) 的网页）：
+不妨体会以下**同一个句子**的 4 个版本（例子来自于 [Macquarie University](https://www.mq.edu.au/about/about-the-university/our-faculties/medicine-and-health-sciences/departments-and-centres/department-of-linguistics/our-research/phonetics-and-phonology/speech/phonetics-and-phonology/Intonation-tobi-introduction)）：
 
 > *Marianna made the marmalade...*
 >
