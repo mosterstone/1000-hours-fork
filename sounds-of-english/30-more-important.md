@@ -18,7 +18,7 @@
 
 我曾在 [Reddit](https://www.reddit.com/r/moviecritic/comments/195b90j/can_you_name_all_the_films_depicted_in_this/) 上看到过一个 *Infinite Zoom Art*，里面有很多电影海报，我把其中的一部分截取出来拼在了一起：
 
-![](../images/posters.png)
+![](/images/posters.png)
 
 这些电影海报的有趣之处在于那些**大量被忽略掉的细节**。你仔细看看，所有的海报都一样，其中所有 “人物” 的脸都是空的，压根就没画眉毛眼睛鼻子嘴这些一般来说被认为是最重要的细节 —— 可你竟然看一眼就知道人家画的是什么…… 
 

@@ -114,6 +114,12 @@ export default withMermaid(
             { text: '14. 安全阈值决定成果', link: '/in-the-brain/14-threshold' },
           ]
         },
+        {
+          text: '自我训练', collapsed: true, link: `/self-training/00-overview`,
+          items: [
+            { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
+          ]
+        },
       ],
 
       socialLinks: [

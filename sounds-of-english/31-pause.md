@@ -9,11 +9,11 @@
 
 > *Yet, it is a fact of life that an unlettered peasant is considered ignorant.*
 >
-> <audio controls><source src="../audios/yet-it-is-a-fact-of-life.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>   
+> <audio controls><source src="/audios/yet-it-is-a-fact-of-life.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>   
 >
 > 以下是这段音频的 *Waveform*（波谱）和 *Pitch Contour*（音高变化）：
 >
-> ![](../images/yet-it-is-a-fact-of-life.png)
+> ![](/images/yet-it-is-a-fact-of-life.png)
 >
 > * 这段语音出自 *Knowledge and Decisions* by Thomas Sowell 的 Audible 版。
 > * *Pitch Contour* 截图来自学习辅助工具 [Enjoying](https://github.com/xiaolai/everyone-can-use-english)。

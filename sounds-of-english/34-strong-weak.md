@@ -6,17 +6,17 @@
 
 > *Marianna made the marmalade...*
 >
-> 1. <audio controls><source src="../audios/marm1.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+> 1. <audio controls><source src="/audios/marm1.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 >
-> 2. <audio controls><source src="../audios/marm2.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+> 2. <audio controls><source src="/audios/marm2.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 >
-> 3. <audio controls><source src="../audios/marm3.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+> 3. <audio controls><source src="/audios/marm3.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 >
-> 4. <audio controls><source src="../audios/marm4.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+> 4. <audio controls><source src="/audios/marm4.wav" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 
 拿第 1 个版本为例，请参照以下图示：
 
-![](../images/nuclear-accented-words.svg)
+![](/images/nuclear-accented-words.svg)
 
 除了少数词汇会被**强读** 之外，还会有很多词汇会被**弱读**。
 
@@ -24,7 +24,7 @@
 
 > *Community* service is an important component of education here at our university. We encourage all students to volunteer for at least one *community* activity before they graduate.
 
-<audio controls><source src="../audios/toefl-sampe-01.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+<audio controls><source src="/audios/toefl-sampe-01.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 
 这段录音中所有被强读的词汇在以下的文本中被加重标记（而没有标记的，就是被弱读的）：
 

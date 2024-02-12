@@ -8,7 +8,7 @@
 
 > Community service is an important component of education *here at our uni*·**ver**·*sity*. We encourage all students to volunteer for at least one community activity before they graduate.
 
-<audio controls><source src="../audios/toefl-sampe-01.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+<audio controls><source src="/audios/toefl-sampe-01.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 
 请仔细注意这一串音节：*here at our uni*·**ver**·*sity*... 它们原本应该被读作  `/ˈhiə æt ɑʊə ˌjunəˈvvəː(r)səti/`…… 可你听到的是什么呢？`ˈ/hiə·(æ)t̬ɑ(ʊə)ˌjunə·ˈvvəː(r)sət̬i/`（括号里的音素省略到几乎听不清）……
 

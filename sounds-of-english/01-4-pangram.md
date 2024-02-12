@@ -8,11 +8,11 @@
 
 Voice: Alloy (US Male)
 
-> <audio controls><source src="../audios/phonetic-pangram-alloy.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+> <audio controls><source src="/audios/phonetic-pangram-alloy.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 
 Voice: Nova (US Female)
 
-> <audio controls><source src="../audios/phonetic-pangram-nova.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
+> <audio controls><source src="/audios/phonetic-pangram-nova.mp3" type="audio/mpeg">Your browser does not support the audio element.</source></audio>
 
 注意，以上的 *Pangram* 也包括 `tr`、`dr`、`ts` 和 `dz`。
 
