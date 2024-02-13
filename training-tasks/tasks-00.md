@@ -25,3 +25,11 @@ In a certain sense, this is my one-man fight against the global education system
   * 元音
   * 辅音
 
+
+
+
+
+## 训练方法
+
+
+
