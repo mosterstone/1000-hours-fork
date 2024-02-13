@@ -11,13 +11,13 @@ import ins from 'markdown-it-ins'
 export default withMermaid(
   // https://vitepress.dev/reference/site-config
   defineConfig({
-    title: "1000 Hours",
-    description: "Pay your attention into 1000 hours, and you can master anything you need.",
+    title: "1000 小时",
+    description: "把你的注意力倾注到 1000 小时之中，你就能练就任何你想要的技能……",
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
         { text: 'Home', link: '/' },
-        { text: 'Examples', link: '/markdown-examples' }
+        // { text: 'Examples', link: '/markdown-examples' }
       ],
 
       sidebar: [
@@ -95,31 +95,31 @@ export default withMermaid(
             }
           ]
         },
-        {
-          text: '大脑内部', collapsed: true,
-          items: [
-            { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
-            { text: '2. 一切都是连接', link: '/in-the-brain/02-links' },
-            { text: '3. 一切都是体育课', link: '/in-the-brain/03-sports' },
-            { text: '4. 一切都是语文课', link: '/in-the-brain/04-literature' },
-            { text: '5. 一切都需要能量', link: '/in-the-brain/05-energy' },
-            { text: '6. 用进废退循环利用', link: '/in-the-brain/06-use-or-lose' },
-            { text: '7. 短时间内足量重复', link: '/in-the-brain/07-repitition' },
-            { text: '8. 新旧网络间的竞争', link: '/in-the-brain/08-compitition' },
-            { text: '9. 注意不到就不存在', link: '/in-the-brain/09-unnoticed' },
-            { text: '10. 熟练就是卸载负担', link: '/in-the-brain/10-unloading' },
-            { text: '11. 被关注是最大负担', link: '/in-the-brain/11-burden' },
-            { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' }, 
-            { text: '13. 一切都是化学反应', link: '/in-the-brain/13-chemical' },
-            { text: '14. 安全阈值决定成果', link: '/in-the-brain/14-threshold' },
-          ]
-        },
-        {
-          text: '自我训练', collapsed: true, link: `/self-training/00-overview`,
-          items: [
-            { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
-          ]
-        },
+        // {
+        //   text: '大脑内部', collapsed: true,
+        //   items: [
+        //     { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
+        //     { text: '2. 一切都是连接', link: '/in-the-brain/02-links' },
+        //     { text: '3. 一切都是体育课', link: '/in-the-brain/03-sports' },
+        //     { text: '4. 一切都是语文课', link: '/in-the-brain/04-literature' },
+        //     { text: '5. 一切都需要能量', link: '/in-the-brain/05-energy' },
+        //     { text: '6. 用进废退循环利用', link: '/in-the-brain/06-use-or-lose' },
+        //     { text: '7. 短时间内足量重复', link: '/in-the-brain/07-repitition' },
+        //     { text: '8. 新旧网络间的竞争', link: '/in-the-brain/08-compitition' },
+        //     { text: '9. 注意不到就不存在', link: '/in-the-brain/09-unnoticed' },
+        //     { text: '10. 熟练就是卸载负担', link: '/in-the-brain/10-unloading' },
+        //     { text: '11. 被关注是最大负担', link: '/in-the-brain/11-burden' },
+        //     { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' }, 
+        //     { text: '13. 一切都是化学反应', link: '/in-the-brain/13-chemical' },
+        //     { text: '14. 安全阈值决定成果', link: '/in-the-brain/14-threshold' },
+        //   ]
+        // },
+        // {
+        //   text: '自我训练', collapsed: true, link: `/self-training/00-overview`,
+        //   items: [
+        //     { text: '1. 小空间大世界', link: '/in-the-brain/01-inifinite' },
+        //   ]
+        // },
       ],
 
       socialLinks: [
