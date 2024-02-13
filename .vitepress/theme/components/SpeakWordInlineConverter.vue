@@ -42,8 +42,9 @@ function buildPlayButton(parent, accent, url) {
 }
 
 function convertToInlineComponent(el) {
-  const word = el.innerText;
-  const dataPos = el.getAttribute('data-pos')
+  if (el.getAttribute('data-converted')) {
+    return;
+  }
   const dataAudioUs = el.getAttribute('data-audio-us')
   const dataAudioUk = el.getAttribute('data-audio-uk')
   console.log('inline component', dataAudioUs, dataAudioUk)
@@ -75,6 +76,7 @@ function convertToInlineComponent(el) {
   // insert at el's side
   el.insertAdjacentElement('afterend', wrapperEl)
   el.style.display = 'none'
+  el.style.setAttribute('data-converted', 'true')
 }
 
 function buildSpeakWordInline() {
