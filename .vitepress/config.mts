@@ -13,6 +13,16 @@ export default withMermaid(
   defineConfig({
     title: "1000 小时",
     description: "用注意力填满 1000 小时就能练成任何你需要的技能……",
+    head: [
+      [ 'script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-Z2QZPX3T9W' } ],
+      [
+        'script', {},
+        `window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-Z2QZPX3T9W');`
+      ]
+    ],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
@@ -109,7 +119,7 @@ export default withMermaid(
         //     { text: '9. 注意不到就不存在', link: '/in-the-brain/09-unnoticed' },
         //     { text: '10. 熟练就是卸载负担', link: '/in-the-brain/10-unloading' },
         //     { text: '11. 被关注是最大负担', link: '/in-the-brain/11-burden' },
-        //     { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' }, 
+        //     { text: '12. 有限排它不可再生', link: '/in-the-brain/12-unreproducible' },
         //     { text: '13. 一切都是化学反应', link: '/in-the-brain/13-chemical' },
         //     { text: '14. 安全阈值决定成果', link: '/in-the-brain/14-threshold' },
         //   ]
