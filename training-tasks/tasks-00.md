@@ -1,3 +1,7 @@
+---
+outline: [2, 3, 4]
+---
+
 # 训练任务
 
 The two main goals of this year's intensive training are speech development and memory expansion. Another measure of success is dedicating at least three hours a day, totaling to a thousand hours in a year.
