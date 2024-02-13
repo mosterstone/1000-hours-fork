@@ -12,7 +12,7 @@ export default withMermaid(
   // https://vitepress.dev/reference/site-config
   defineConfig({
     title: "1000 小时",
-    description: "把你的注意力倾注到 1000 小时之中，你就能练就任何你想要的技能……",
+    description: "用注意力填满 1000 小时就能练成任何你需要的技能……",
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       nav: [
