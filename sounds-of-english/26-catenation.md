@@ -10,7 +10,7 @@
 
 既然 “所有自然语音都以音节为最基础单位”，那么 “把相邻的音节处理明白而后说清楚” 原本就是基础。
 
-比如，前后两个词在音上的连读现象（*catenation*）：*clean up*，前一个音节末尾的 `n` 和后一个元音开头的音节 `ʌp` 听起来像是同一个音节，到最后听起来是 `kli ˈnʌp`<span class="speak-word-inline" data-audio-uk="/audios/clean-up-uk.mp3"></span><span class="speak-word-inline" data-audio-us="/audios/clean-up-us.mp3"></span> —— 之所以如此，关键就在于，所有自然语音都以音节为最基础单位。
+比如，前后两个词在音上的连读现象（*catenation*）：*clean up*，前一个音节末尾的 `n` 和后一个元音开头的音节 `ʌp` 听起来像是同一个音节，到最后听起来是 `kli ˈnʌp`<span class="speak-word-inline" data-audio-uk="/audios/clean-up-uk.mp3" data-audio-us="clean-up-us.mp3"></span> —— 之所以如此，关键就在于，所有自然语音都以音节为最基础单位。
 
 而又因为连贯的语音，往往还带着高低起伏（[3.3](#3.3.-高低)，[3.4](#3.4.-起伏)），有着轻重缓急（[3.5](#3.5.-轻重)，[3.6](#3.6.-缓急)），于是在这个过程中某些因素会自然发生一些变化，甚至变体，简直不可能更自然了。
 
