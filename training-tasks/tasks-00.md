@@ -1,24 +1,87 @@
 ---
-outline: [2, 3, 4]
+outline: [1, 2, 3, 4, 5]
 ---
 
-# 训练任务
+# 启动
 
-The two main goals of this year's intensive training are speech development and memory expansion. Another measure of success is dedicating at least three hours a day, totaling to a thousand hours in a year.
+原本，自然语言习得（我们在学校里的**语文课**）是我们一生中能够遇到的最复杂的学习任务 —— 因为自然语言是节点最多结构最复杂的知识网络。这也是为什么第二语言习得实际上那么难的根本原因。然而，随着人工智能的爆发，突然之间，一切都变了，我们竟然有机会可以通过极为简单的自我训练，把母语之外某个语言 —— 对我们来说最好就是**英语** —— 转换为自己的第一语言…… 原来难度为 10 甚至 100 的任务，突然之间难度变成了 2，所需要的时间大幅度缩小，而后，效果确实原本完全无法想象的，不是**学好英语**而已，而是**直接把英语变成自己的第一语言**。
 
-Don't fall into the trap of thinking the ultimate goal is merely making English your first language. What we accumulate and gain in this process is a comprehensive self-learning experience, which might be the first for many.
+核心任务只剩下两个：
 
-More than that, this self-learning experience will inevitably reshape one's perspective on education overall, influencing choices, and potentially altering the fate of an individual or even a family.
+> * 语音塑造
+> * 记忆扩展
 
-As an author, I can't confine myself to teaching English. Theoretically, we can use the same approach to learn anything, as long as we believe it's necessary.
+## 1. 训练任务
 
-In a certain sense, this is my one-man fight against the global education system for the sake of my children. From another perspective, it's a Quixotic story, a madman determined to tilt at windmills, come what may.
+### （一）概览
+
+首先要保证每天至少专注地自我训练 3 个小时，一年内保证至少 1000 小时的专注。
+
+> * 说自己想说的话
+> * 每天至少三小时
+> * 每天都要交作业
+
+### （二）说自己想说的话
+
+> * 先用母语写下差不多 100～150 字，记录 “自己想说的话”；随着任务的推进，逐步增加篇幅。
+> * 使用 AI 辅助工具将其转换成英文表达
+> * 使用 AI 辅助工具将英文文字转换成语音文件
+> * 跟读、朗读、直至完整背诵。
+
+实际操作中，这里的难点可能是 “用自己的母语写下一段话” —— 大多数人会遇到 “说不清楚的障碍”，比如，很多人可能意识不到 “自己的母语其实非常差”…… 实在写不出来，甚至不知道该写什么的话，那么，可以 “改写别人的话”，比如，你每天听到或者读到的 “金句” 甚至别人发的 “微博”、“朋友圈” 什么的。也可以是 “自己家里每天都用的日常对话”，还可以是 “托福作文题”、“GRE 作文题” 等等。实在搞不定的时候，可以直接用有声书的片段。
+
+另外，有空的话，可以先去补补《李笑来的写作课》。
+
+AI 辅助工具，付费方案最好的是 OpenAI，无论是文字生成、还是语音生成。免费方案的话，文字生成可以用 LM Studio，甚至直接用免费的 Google Translate；语音生成可以用 MS Edge TTS engine，或者写成 `html` 文件之后，用 MS Edge 浏览器打开，也能有朗读功能。另外，网上也有很多方案，可以自己想办法。
+
+虽然最初的时候，你可能要自己折腾 AI 辅助工具，但，我们在开发 “辅助工具”，也将会持续完善，很快就会分发到社群成员手里，任何小白都可以直接上手使用。（但，早期依然需要用户自己拥有 OpenAI 的 API Key 才行……）
+
+### （三）每天至少三小时
+
+如果做不到每天三小时，那就算了吧 —— 当然，其实谁都可以做到的。
+
+只有大声开口练习的时间才算数 —— 注意，一定是 “大声”；虽然开口了，但只不过是小声嘟囔，不算数。
+
+> * 折腾文本的时间不算；
+> * 不开口或只是跟着嘟囔的时间不算；
+> * 若是还有精力，其他时间里还可以阅读英文书籍文章、看英文视频电影剧集，但，只要没有大声开口都不算……
+> * 随着时间的推移，复习之前的任务，朗读、重新录音的时间可以计入。
+
+虽然最好是 “一口气三小时”，但，“累计三小时” 也可以。
+
+三小时之外，如果你有时间精力，依然应该花时间输入英文，无论是阅读、还是听有声书或者看视频影视剧集。
+
+### （四）每天都要交作业
+
+作业不是要 “交给老师”，而是自己存档备份。
+
+作业内容包括：
+
+> * 最终生成的文字和语音（一个文本文件和一个语音文件）
+> * 自己的第一遍朗读录音（一个语音文件）
+> * 自己的最后一遍朗读录音（一个语音文件）在这个过程中，遇到的困难（解决的、未解决的），以及想到的可能的解决方案，练习过程中的感悟。（一个文本文件）
+
+以上打包压缩，以日期为文件名保存。这些记录，是将来 “在社群里当老师”，“在家里当老师”，或者起码 “给自己当老师”、“给自家孩子当老师” 必须的资格证明。
+
+### （五）简要的补充说明
+
+这个任务最关键的一点是，“没有老师”、“没有他人教学或者纠正”、“没有他人监督和促进” —— 只靠自己。
+
+最初的三个月，没有任何技巧而言，就是 “生学硬练”……
+
+事实上，最初 1～3 个月最重要的 “核心任务”，不是发音技巧什么的，而是 “极大提高英文记忆力” —— 所以，每天结束的时候，都得以 “熟练背诵” 作为结束。
+
+关于这个任务的 “教学讲解”，此后会详细深入。现在最重要的是，“直接开始干活”。
+
+另外，我 2010 年写的，2015 年网络发布，2019 年上传到 github 上的《[人人都能用英语](https://github.com/xiaolai/everyone-can-use-english)》，也许你应该去大致扫一遍。2024 年，我要做的事情之一，就是写《人人都能用英语》的新版，或许更名为《多语的真相》。
 
 
 
-## 训练方法
+## 2. 训练方法
 
-### （一）搞清每个单词的读音
+### a. 语音塑造
+
+#### （一）搞清每个单词的读音
 
 在挣扎着**读准**之前，**首先要避免读错**。这只是一个习惯，遇到任何不确定的词汇都要查词典 —— 当然，在有各种辅助工具的情况下（[GPT: Phonetic Transcriber](https://chat.openai.com/g/g-nWwuxUVqO-phonetic-transcriber)），甚至可以整句查询音标。
 
@@ -28,7 +91,7 @@ In a certain sense, this is my one-man fight against the global education system
 
 遇到自己不熟悉发音的词汇，要单独反复大声朗读，直至自己的舌头和嘴唇都协调得非常轻松自然。每个人遇到的困难不一样。比如，Instagram 上就有个人[演示](https://www.instagram.com/reel/C1VmSpuIvTO/?igsh=czY3cDAzcGIxMGN4)过自己 *literally* 这个单词死活读不明白的尴尬<span class="speak-word-inline" data-audio-uk="/audios/literally-instagram.mp3"></span> —— 不过，这恰恰就是在自己的大脑里**新建连接新建网络**所要面临的困难，要通过练习克服的就是这个困难，并且还要通过短时间内足量重复把**新连接新网络**强化到**原有近似连接近似网络**无法竞争的地步……
 
-### （二）放慢播放速度仔细听
+#### （二）放慢播放速度仔细听
 
 要慢速听**很多遍**。从 2 大层面总计 7 个方面分别去分析：
 
@@ -53,7 +116,7 @@ In a certain sense, this is my one-man fight against the global education system
 > * 在连起来读得很快的几个词汇下画波浪线；
 > * 格外需要注意并调整的音素，引出一个箭头之后写上各种必要的笔记……
 
-### （三）分段跟读
+#### （三）分段跟读
 
 这和我们练琴特别像。刚开始的时候，人家弹得轻松听着优美，我们自己的手指干脆不听话，笨得跟脚趾似的…… 
 
@@ -75,7 +138,7 @@ In a certain sense, this is my one-man fight against the global education system
 
 <audio controls><source src="/audios/benjamin-zander-on-kids-playing-piano.mp3"></source></audio>
 
-### （四）完整跟读
+#### （四）完整跟读
 
 终于，可以尝试完整跟读了。
 
@@ -85,13 +148,13 @@ In a certain sense, this is my one-man fight against the global education system
 
 重复三五遍之后，就要再录一次音，再对比再调整。
 
-### （五）背诵
+#### （五）背诵
 
 这时候，你已经把整个文本读过不知道多少遍了 —— 背诵不应该难题。
 
 然而，由于它并不是用你目前高度熟悉的语言书写的，所以你还真不一定能够一下子记住。要集中注意力短时间内重复多次才可以。
 
-### （六）放松
+#### （六）放松
 
 在此之前，你的所有努力都是要尽量用录音里的方式说出所有的文字。在这个过程中，为了保证练习效果，你可能一直相当夸张，这也非常必要。
 
@@ -103,15 +166,17 @@ In a certain sense, this is my one-man fight against the global education system
 
 放松自己的嘴唇、舌头、呼吸，用尽量自然的方式反复朗读文本。重复几遍之后就录一次音…… 对比一下…… 也需要做调整…… 尝试背诵…… —— 重复以上步骤。
 
-### （七）复盘
+#### （七）复盘
 
 一天至少三个小时，每周最多可以中止一天。
 
 每天结束之前，要花 5～10 分钟做一下复盘工作，回忆并记录一下自己今天遇到的浑南，克服的困难，尚未克服的困难，以及面对那些困难时采用的方法…… 想一想还有什么方法可以试试？这些都要写下来，相信我，记录这个东西 ，总是会以想象不到的方式起想象不到的作用。
 
+### b. 记忆扩展
 
+#### （一）记忆力是万能基础
 
-
+#### （二）自己的话才更容易记
 
 
 
