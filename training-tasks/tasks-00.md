@@ -74,7 +74,7 @@ In a certain sense, this is my one-man fight against the global education system
 
 于是，只能放慢听，放慢速度练……
 
-<video controls><source src="/videos/hc-gt-normal.mp4"></source></video>
+<video controls><source src="/videos/hc-gt-slow.mp4"></source></video>
 
  可即便放慢速度了也不行…… 于是，只能一小节一小节地练，练熟了一小节再去练下一小节，两个都练熟了之后吧，还得拼起来重复很多遍才能做到两个小节之间衔接自然…… 如此这般，一小节一小节地终于 “**爬**” 完之后，才算有资格可以进行**正式练习**了……
 
