@@ -67,7 +67,7 @@ In a certain sense, this is my one-man fight against the global education system
 
 不要害怕自己的笨拙。
 
-大家都一样，刚开始的时候就是很吃力，就是很生硬 —— 并且，这种笨拙必然要持续相当长一段时间…… 哪怕感觉上已经熟练，还是需要继续练习的 —— 做什么都一样。TED 上有一个讲座，Benjamin Zander 讲 [The transformative power of classical music](https://www.ted.com/talks/benjamin_zander_the_transformative_power_of_classical_music/transcript?language=en)，提到说 “没有人是音盲（*tune deaf*）” 所以每个人都可以练习演奏 —— 这很重要…… 另外值得在给大家看看的是，他模仿了不同时期孩子弹钢琴的情况，从生硬到熟练…… 无论干什么，每个人都得经历那其中的各个阶段。
+大家都一样，刚开始的时候就是很吃力，就是很生硬 —— 并且，这种笨拙必然要持续相当长一段时间…… 哪怕感觉上已经熟练，还是需要继续练习的 —— 做什么都一样。TED 上有一个讲座，Benjamin Zander 讲 [The transformative power of classical music](https://www.ted.com/talks/benjamin_zander_the_transformative_power_of_classical_music/transcript?language=en)，提到说 “没有人是音盲（*tune deaf*）” 所以每个人都可以练习演奏 —— 这很重要…… 不过，值得你在这里听听的是他模仿了不同时期孩子弹钢琴的情况，从生硬到熟练…… 其实，无论干什么，每个人都得经历那其中的各个阶段。
 
 <audio controls><source src="/audios/benjamin-zander-on-kids-playing-piano.mp3"></source></audio>
 
