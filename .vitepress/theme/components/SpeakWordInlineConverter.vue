@@ -76,7 +76,7 @@ function convertToInlineComponent(el) {
   // insert at el's side
   el.insertAdjacentElement('afterend', wrapperEl)
   el.style.display = 'none'
-  el.style.setAttribute('data-converted', 'true')
+  el.setAttribute('data-converted', 'true')
 }
 
 function buildSpeakWordInline() {
