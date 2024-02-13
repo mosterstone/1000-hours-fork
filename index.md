@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "1000 小时"
-  text: "用注意力填满 1000 小时就能练成任何你需要的技能……"
+  text: "用你的注意力填满 1000 小时就能练成任何你所需要的技能……"
   # text: "做到就是往 1000 小时里倾注自己的注意力……"
   tagline: 所谓 “<strong>努力</strong>” 无非就是 “<strong>短时间内足量重复</strong>”。 — 李笑来
   actions:
