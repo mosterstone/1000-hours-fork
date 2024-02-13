@@ -12,23 +12,6 @@ In a certain sense, this is my one-man fight against the global education system
 
 
 
-分层突破整理
-
-* 单独词汇发音
-* 韵律节奏
-  * 停顿
-  * 高低
-  * 轻重
-  * 起伏
-  * 缓急
-* 音素变化
-  * 元音
-  * 辅音
-
-
-
-
-
 ## 训练方法
 
 ### （一）搞清每个单词的读音
@@ -81,6 +64,12 @@ In a certain sense, this is my one-man fight against the global education system
 自然语音中有**可换气停顿**的地方，就相当于是乐谱里的小节分界线。分段练习，实在难的小节，还可以继续拆分……
 
 在跟读的时候，有必要**夸张**一点。**声音也要正常地大** —— 确实不用喊，嗓子的确需要保护。实际上，我们主要需要练的是嘴唇、舌头、气流震动的配合，主要练的还真不是声带。
+
+不要害怕自己的笨拙。
+
+大家都一样，刚开始的时候就是很吃力，就是很生硬 —— 并且，这种笨拙必然要持续相当长一段时间…… 哪怕感觉上已经熟练，还是需要继续练习的 —— 做什么都一样。TED 上有一个讲座，Benjamin Zander 讲 [The transformative power of classical music](https://www.ted.com/talks/benjamin_zander_the_transformative_power_of_classical_music/transcript?language=en)，提到说 “没有人是音盲（*tune deaf*）” 所以每个人都可以练习演奏 —— 这很重要…… 另外值得在给大家看看的是，他模仿了不同时期孩子弹钢琴的情况，从生硬到熟练…… 无论干什么，每个人都得经历那其中的各个阶段。
+
+<video controls><source src="/videos/benjamin-zander-on-kids-playing-piano.mp4"></source></video>
 
 ### （四）完整跟读
 
