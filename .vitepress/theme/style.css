@@ -145,6 +145,10 @@ body {
 }
 
 
+.vp-doc p img, .vp-doc p video {
+  margin: 0 auto;
+}
+
 .vp-doc blockquote > p{
   font-size: 18px;
 }
