@@ -69,12 +69,12 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 
-  --vp-font-family-base: 'Kaiti SC', 'Georgia', sans-serif;
+  --vp-font-family-base: 'Hei', 'Kaiti SC', 'Georgia', sans-serif;
   --vp-font-family-mono: 'Courier New', sans-serif;
 }
 
 body {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 /**
@@ -150,11 +150,11 @@ body {
 }
 
 .vp-doc blockquote > p{
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .vp-doc .custom-block {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 strong, b {
