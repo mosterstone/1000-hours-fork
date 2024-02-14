@@ -130,6 +130,10 @@ dist
 .pnp.*
 
 .DS_Store
-jupyter-notebooks/*.mp3
+./public/jupyter-notebooks/*.mp3
 
 .vitepress/cache/
+
+.jupyter
+.ipynb_checkpoints
+
