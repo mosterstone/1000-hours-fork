@@ -21,7 +21,8 @@ export default withMermaid(
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
         gtag('config', 'G-Z2QZPX3T9W');`
-      ]
+      ],
+      ['link', { rel: 'icon', href: '/images/clock.svg' }]
     ],
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
