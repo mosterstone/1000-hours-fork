@@ -43,6 +43,18 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
+@font-face {
+  font-family: 'forHan';
+  src: local('Hei'), local('SimHei');
+  unicode-range: U+4E00-9FD5;
+}
+
+@font-face {
+  font-family: 'forWestern';
+  src: local('Verdana');
+  unicode-range:U+00-7F;
+}
+
  :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
@@ -69,7 +81,7 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 
-  --vp-font-family-base: 'Hei', 'Kaiti SC', 'Georgia', sans-serif;
+  --vp-font-family-base: forHan, forWestern, Hei, SimHei, sans-serif;
   --vp-font-family-mono: 'Courier New', sans-serif;
 }
 
