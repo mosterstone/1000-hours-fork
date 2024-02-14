@@ -171,6 +171,7 @@ body {
 
 strong, b {
   color: rgb(63 86 99);
+  font-weight: bold;
 }
 
 em, i {
