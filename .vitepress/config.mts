@@ -31,6 +31,10 @@ export default withMermaid(
         // { text: 'Examples', link: '/markdown-examples' }
       ],
 
+      search: {
+        provider: 'local'
+      },
+
       sidebar: [
         {
           text: '训练任务', collapsed: true,
