@@ -47,6 +47,7 @@ export default withMermaid(
           items: [
             { text: '1. 启动任务', link: '/training-tasks/kick-off' },
             { text: '2. 训练方法', link: '/training-tasks/procedures' },
+            { text: '3. 人工智能', link: '/training-tasks/ai' },
 
           ] 
         },
