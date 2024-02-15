@@ -193,9 +193,15 @@
 
 > Most people are deft at exhausting resources to tackle problems they have been creating. They often in effect choose to involute, rather than evolute without noticing. 
 >
+> <br />
+>
 > Here's an intriguing example in Foreign Language Learning. For various reasons, most tend to shy away from speaking almost from the very beginning... This retreat leads to a pitfall: [mispronouncing words grows increasingly commonplace,](https://github.com/shimohq/chinese-programmer-wrong-pronunciation) and even when armed with a script for speech, communication falters due to these rampant pronunciation mistakes  - behold, it is not about precision but outright errors. Essentially, their relentless effort has been digging a hole so deep that escape was already impossible.
 >
+> <br />
+>
 > In everyday life, one of the most commonly perplexing examples is the culture of borrowing to spend. Not only homes and cars are bought on loans; even daily expenses rack up credit card debts... But here's the crux: borrowing to spend essentially means they're paying for today’s desires with tomorrow’s earnings. Each time they beg for interest from these activities, it's like adding more bricks to their own prison wall - what's scarier still: those additional parts are self-replicating around-the-clock! Then they slave away at work, confusing more earning with more right to splurge until ultimately end in shackles just like the Eagle's lyric goes, *They are all prisoners of their own devices*.
+>
+> <br />
 >
 > The same holds for education. People pour money into it, more as a status symbol than an investment, turning what should fundamentally be production into consumption... They sowed the seeds of problems from inception - those seeds took years to sprout before finally growing into towering trees with branches, twigs and leaves representing myriad issues big or small. Under the tree are those craning their necks at every branch, twig, or leaf, pondering to the tackle them, completely forgetting these were seeds of their own making - leaving no stone unturned.
 
