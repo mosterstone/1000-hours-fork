@@ -181,3 +181,7 @@ em, i {
 svg {
   font-family: --vp-font-family-mono;
 }
+
+.MathJax {
+  padding-bottom: 2px;
+}
