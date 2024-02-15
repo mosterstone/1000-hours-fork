@@ -81,7 +81,7 @@
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);
 
-  --vp-font-family-base: forHan, forWestern, Hei, SimHei, sans-serif;
+  --vp-font-family-base: 'SF Pro SC','SF Pro Text','SF Pro Icons','PingFang SC','Helvetica Neue', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Helvetica, Arial, sans-serif;
   --vp-font-family-mono: 'Courier New', sans-serif;
 }
 
