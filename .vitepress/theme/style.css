@@ -177,3 +177,7 @@ strong, b {
 em, i {
   color: rgb(91, 4, 17);
 }
+
+svg {
+  font-family: --vp-font-family-mono;
+}
