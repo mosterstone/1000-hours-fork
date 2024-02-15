@@ -14,6 +14,9 @@ hero:
     - theme: brand
       text: 语音塑造
       link: /sounds-of-english/01-basics
+    - theme: brand
+      text: 大脑内部
+      link: /in-the-brain/01-inifinite
     # - theme: alt
     #   text: API Examples
     #   link: /api-examples
