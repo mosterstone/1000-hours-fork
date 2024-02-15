@@ -32,7 +32,13 @@ export default withMermaid(
       ],
 
       search: {
-        provider: 'local'
+        // provider: 'local'
+        provider: 'algolia',
+        options: {
+          appId: 'QF5TVZ8TIO',
+          apiKey: '8dac3a5e27daaaf57efc72604ca08b98',
+          indexName: '1000h_prod'
+        }
       },
 
       sidebar: [
