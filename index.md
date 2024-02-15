@@ -9,7 +9,10 @@ hero:
   tagline: 所谓 “<strong>努力</strong>” 无非就是 “<strong>短时间内足量重复</strong>”。 — 李笑来
   actions:
     - theme: brand
-      text: 英文语音简明教程
+      text: 启动任务
+      link: /training-tasks/kick-off
+    - theme: brand
+      text: 语音塑造
       link: /sounds-of-english/01-basics
     # - theme: alt
     #   text: API Examples

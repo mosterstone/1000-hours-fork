@@ -33,6 +33,14 @@ export default withMermaid(
 
       sidebar: [
         {
+          text: '训练任务', collapsed: true,
+          items: [
+            { text: '1. 启动任务', link: '/training-tasks/kick-off' },
+            { text: '2. 训练方法', link: '/training-tasks/procedures' },
+
+          ] 
+        },
+        {
           text: '语音塑造', collapsed: true,
           items: [
             {
