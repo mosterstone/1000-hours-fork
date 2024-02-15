@@ -19,11 +19,11 @@
 要慢速听**很多遍**。从 2 大层面总计 7 个方面分别去分析，详情参见《[语音塑造：进阶](/sounds-of-english/29-advanced)》：
 
 > * 韵律节奏
->   * 停顿（[3.2](sounds-of-english/31-pause)）
+>   * 停顿（[3.2](/sounds-of-english/31-pause)）
 >   * 高低（[3.3](/sounds-of-english/32-high-low)）
 >   * 轻重（[3.4](/sounds-of-english/33-up-down)）
 >   * 起伏（[3.5](/sounds-of-english/34-strong-weak)）
->   * 缓急（[3.6](sounds-of-english/35-fast-slow)）
+>   * 缓急（[3.6](/sounds-of-english/35-fast-slow)）
 > * 音素变化
 >   * 元音（[2.1](/sounds-of-english/03-vowels-overview)）
 >   * 辅音（[2.2](/sounds-of-english/12-consonants-overview)）
