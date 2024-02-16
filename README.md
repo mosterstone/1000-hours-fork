@@ -2,4 +2,4 @@
 
 This is the repo of [1000h.org](https://1000h.org).
 
-With your attention paid into 1000 hours, you can master anything you need.
+By paying your attention into 1000 hours, you can master anything you need.
